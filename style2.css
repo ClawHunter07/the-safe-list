@@ -1,0 +1,423 @@
+.cont {
+    height: 730px;
+    width: 45%;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.p {
+    opacity: 0.7;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.p1 {
+    position: relative;
+    left: 5px;
+    opacity: 0.7;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.why {
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+    opacity: 0.7;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.verytired {
+    position: relative;
+    top: 7px;
+    left: 5px;
+    opacity: 0.7;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.ranks {
+    position: relative;
+    left: 15px;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rank {
+
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+}
+
+.fuc {
+    position: relative;
+    left: 10px;
+}
+
+.wd {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    color: black;
+    font-weight: 100;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 40px;
+
+}
+
+.n {
+    position: relative;
+    left: 10px;
+}
+
+.no {
+    position: relative;
+    left: 15px;
+    font-size: 40px;
+}
+
+
+.very {
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wie {
+    position: relative;
+    left: 130px;
+}
+
+.rating {
+    position: relative;
+    right: 25px;
+    bottom: 1px;
+    transform: rotateY(180deg);
+    display: flex;
+}
+
+.bcont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+
+.rating label::before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #101010;
+}
+
+.sra {
+    position: relative;
+    left: 200px;
+}
+
+table {
+    width: 100%;
+}
+
+.woe {
+    text-align: center;
+}
+
+td {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rating label::after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: purple;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0, 0.5);
+}
+
+
+.rating label:hover:after,
+.rating label:hover~label:after,
+.rating input:checked~label:after {
+    opacity: 1
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    width: 45%;
+    height: 400px;
+}
+
+
+
+.down {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top: 59%;
+    right: 4%;
+    width: 45%;
+    height: 300px;
+}
+
+
+.run {
+
+    font-family: 'Baloo Thambi 2', cursive;
+    position: relative;
+    top: 6%;
+    left: 17%;
+}
+
+.run2 {
+    font-family: 'Baloo Thambi 2', cursive;
+    position: relative;
+    bottom: 3%;
+    left: 17%;
+}
+
+
+.safes {
+    position: relative;
+    left: 20%;
+    bottom: 70%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    border: 2px solid grey;
+    width: 50px;
+    height: 50px;
+}
+
+.safest {
+
+    font-size: 25px;
+    border-radius: 6px;
+    position: relative;
+    top: 10%;
+    left: 16%;
+    width: 70%;
+    border: 2px solid grey;
+    height: 100px;
+}
+
+.safestly {
+    font-size: 25px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 4%;
+    left: 16%;
+    width: 70%;
+    border: 2px solid grey;
+    height: 100px;
+}
+
+.safestl {
+
+    font-size: 25px;
+    border-radius: 6px;
+    position: relative;
+    top: 12%;
+    left: 16%;
+    width: 70%;
+    border: 2px solid grey;
+    height: 100px;
+}
+
+
+.goober {
+    position: relative;
+    bottom: 90%;
+    right: 25%;
+    transform: rotateY(180deg);
+    display: flex;
+}
+
+
+.goober input {
+    display: none;
+}
+
+.goober label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+
+.goober label::before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #101010;
+}
+
+.goober label::after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: purple;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0, 0.5);
+}
+
+
+.goober label:hover:after,
+.goober label:hover~label:after,
+.goober input:checked~label:after {
+    opacity: 1
+}
+
+.imtired {
+    font-family: 'Baloo Thambi 2', cursive;
+    position: relative;
+    left: 2%;
+}
+
+
+.tired {
+    position: relative;
+    bottom: 21%;
+    right: 47%;
+    transform: rotateY(180deg);
+    display: flex;
+}
+
+
+.tired input {
+    display: none;
+}
+
+.tired label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+
+.tired label::before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #101010;
+}
+
+.tired label::after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: purple;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0, 0.5);
+}
+
+
+.tired label:hover:after,
+.tired label:hover~label:after,
+.tired input:checked~label:after {
+    opacity: 1
+}
+
+
+@media only screen and (max-width: 1350px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .cont {
+        font-size: 10px;
+        position: absolute;
+        left: 22%;
+        top: 20%;
+        width: 80%;
+    }
+
+    table {
+        position: relative;
+        left: 30px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .down {
+        position: absolute;
+        top: 110%;
+        height: 110%;
+        width: 80%;
+        left: 20%;
+    }
+
+    .rating,
+    .goober {
+        display: none;
+    }
+
+    .sra {
+        none;
+    }
+
+    .tired {
+        display: none;
+    }
+
+    .down {
+        display: none;
+    }
+}
